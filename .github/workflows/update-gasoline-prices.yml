@@ -1,0 +1,38 @@
+name: Update gasoline prices
+
+on:
+  schedule:
+    # 水曜 15:00 JST (06:00 UTC)。資源エネルギー庁の公表（水曜14:00）の後。
+    - cron: "0 6 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Fetch and convert
+        run: python scripts/fetch_gasoline_prices.py gasoline-prices.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- gasoline-prices.json; then
+            echo "No changes."
+          else
+            git add gasoline-prices.json
+            git commit -m "Update gasoline prices"
+            git push
+          fi
