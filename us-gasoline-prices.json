@@ -1,0 +1,99 @@
+{
+  "surveyDate": "2026-11-02",
+  "source": "U.S. Energy Information Administration (EIA), Weekly Retail Gasoline and Diesel Prices",
+  "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
+  "unit": "USD per gallon",
+  "fetchedAt": "2026-11-10T02:27:49+00:00",
+  "prices": {
+    "US": {
+      "regular": 4.153,
+      "premium": 5.158,
+      "diesel": 6.252
+    },
+    "CA": {
+      "regular": 5.748,
+      "premium": 6.204,
+      "diesel": 8.143
+    },
+    "CO": {
+      "regular": 4.068,
+      "premium": 4.835
+    },
+    "FL": {
+      "regular": 3.791,
+      "premium": 4.6
+    },
+    "MA": {
+      "regular": 4.104,
+      "premium": 5.145
+    },
+    "MN": {
+      "regular": 4.017,
+      "premium": 4.971
+    },
+    "NY": {
+      "regular": 4.217,
+      "premium": 5.15
+    },
+    "OH": {
+      "regular": 4.09,
+      "premium": 5.256
+    },
+    "TX": {
+      "regular": 3.578,
+      "premium": 4.436
+    },
+    "WA": {
+      "regular": 5.095,
+      "premium": 5.625
+    },
+    "PADD1": {
+      "regular": 3.936,
+      "premium": 4.851,
+      "diesel": 5.981
+    },
+    "PADD1A": {
+      "regular": 4.145,
+      "premium": 5.161,
+      "diesel": 6.452
+    },
+    "PADD1B": {
+      "regular": 4.232,
+      "premium": 5.109,
+      "diesel": 6.49
+    },
+    "PADD1C": {
+      "regular": 3.695,
+      "premium": 4.572,
+      "diesel": 5.744
+    },
+    "PADD2": {
+      "regular": 4.102,
+      "premium": 5.198,
+      "diesel": 6.344
+    },
+    "PADD3": {
+      "regular": 3.636,
+      "premium": 4.512,
+      "diesel": 5.871
+    },
+    "PADD4": {
+      "regular": 4.213,
+      "premium": 4.895,
+      "diesel": 6.378
+    },
+    "PADD5": {
+      "regular": 5.296,
+      "premium": 5.942,
+      "diesel": 7.298
+    },
+    "PADD5XCA": {
+      "diesel": 6.567
+    }
+  },
+  "national": {
+    "regular": 4.153,
+    "premium": 5.158,
+    "diesel": 6.252
+  }
+}

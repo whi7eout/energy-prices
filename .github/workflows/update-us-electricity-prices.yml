@@ -1,0 +1,38 @@
+name: Update US electricity prices
+
+on:
+  schedule:
+    # 毎月27日 16:00 JST (07:00 UTC)。EIA Electric Power Monthly の公表（月下旬）の後。
+    - cron: "0 7 27 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install openpyxl
+
+      - name: Fetch and convert
+        run: python scripts/fetch_us_electricity_prices.py us-electricity-prices.json
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- us-electricity-prices.json; then
+            echo "No changes."
+          else
+            git add us-electricity-prices.json
+            git commit -m "Update US electricity prices"
+            git push
+          fi

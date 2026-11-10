@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-10T02:28:15+00:00",
+  "currency": "USD",
+  "taxIncluded": false,
+  "notes": "外出先充電サービスの標準料金マスター（米国）。Electrify America の価格は公式にステーションごとに異なり、実際の価格は公式アプリまたは充電器の画面で表示される（時間帯別料金のステーションもある）。ここに収録する単価は、同社の広く公表されてきた基準レートを参考値として収録したもので、Pass+ の単価は公式ページの「約25%引き」から算出した。州法により分課金になるステーションもある。",
+  "services": [
+    {
+      "id": "electrify-america",
+      "name": "Electrify America",
+      "operator": "Electrify America LLC",
+      "note": "米国最大級のDC急速充電ネットワーク。価格はステーションごとに異なり、公式アプリ/充電器で事前表示される。Pass+ は充電単価が約25%引き（公式ページ）。",
+      "sourceUrl": "https://www.electrifyamerica.com/pricing/",
+      "tariffs": [
+        {
+          "id": "ea-guest",
+          "membership": "guest",
+          "planName": "Guest (Pass)",
+          "monthlyFee": 0,
+          "note": "ゲスト（会員登録なし）の都度払い。単価はステーションごとに異なるため、基準レートの参考値を収録。",
+          "sourceUrl": "https://www.electrifyamerica.com/pricing/",
+          "rates": [
+            {
+              "id": "ea-guest-rapid-perkwh",
+              "chargerType": "rapid",
+              "unit": "perKwh",
+              "price": 0.48,
+              "label": "DC fast (per kWh, reference)",
+              "note": "参考値：実際の価格はステーションごとに異なる"
+            }
+          ]
+        },
+        {
+          "id": "ea-pass-plus",
+          "membership": "member",
+          "planName": "Pass+",
+          "monthlyFee": 7.0,
+          "note": "月額制の会員プラン。充電単価が約25%引き（公式ページ）。月額料金は単価に含めない参考情報。",
+          "sourceUrl": "https://www.electrifyamerica.com/pricing/",
+          "rates": [
+            {
+              "id": "ea-passplus-rapid-perkwh",
+              "chargerType": "rapid",
+              "unit": "perKwh",
+              "price": 0.36,
+              "label": "DC fast (per kWh, reference)",
+              "note": "参考値：ゲスト基準レート×0.75（約25%引き）で算出"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

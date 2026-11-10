@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-10T02:28:15+00:00",
+  "currency": "USD",
+  "source": "DSIRE (NC Clean Energy Technology Center), Distributed Generation Customer Credit Rates for Excess Generation, May 2026",
+  "sourceUrl": "https://www.dsireusa.org/",
+  "publishedDate": "2026-05",
+  "notes": "offsetRatePercent は、その州で余剰電力を輸出したときに得られるクレジットの「自宅買電単価に対する割合（%）」の代表値。売電単価 = 買電単価 × 相殺率 で概算する。実際のクレジットは電力会社・契約・導入時期で大きく異なるため、手入力での上書きを前提とする。category は DSIRE 分類（retail=小売単価 / between=小売と回避可能コストの中間 / avoidedCost=回避可能コスト・卸価格水準）。",
+  "states": {
+    "AK": {
+      "offsetRatePercent": 85,
+      "category": "retail",
+      "note": "ネットメータリング（月内相殺は小売単価相当、超過分は回避可能コスト）"
+    },
+    "AL": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体の義務付けなし。電力会社の買取は回避可能コスト水準が多い"
+    },
+    "AR": {
+      "offsetRatePercent": 50,
+      "category": "between",
+      "note": "ネットビリング（2023年制度改正）。輸出クレジットは小売未満"
+    },
+    "AZ": {
+      "offsetRatePercent": 55,
+      "category": "between",
+      "note": "ネットビリング。輸出単価は州委員会が設定（APS等で小売の半分強）"
+    },
+    "CA": {
+      "offsetRatePercent": 12,
+      "category": "avoidedCost",
+      "note": "NEM 3.0（Net Billing Tariff）。回避可能コスト（ACC）ベースで小売の約1割"
+    },
+    "CO": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "CT": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "タリフ制度（ネットティング選択時は小売単価相当）"
+    },
+    "DC": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "DE": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "FL": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "GA": {
+      "offsetRatePercent": 35,
+      "category": "avoidedCost",
+      "note": "超過分は回避可能コスト水準のクレジットが多い"
+    },
+    "HI": {
+      "offsetRatePercent": 50,
+      "category": "between",
+      "note": "プログラム（CGS+/Smart Export等）により輸出クレジットが異なる"
+    },
+    "IA": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "ID": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体の制度なし。電力会社ごとの手続きで回避可能コスト水準"
+    },
+    "IL": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "IN": {
+      "offsetRatePercent": 35,
+      "category": "avoidedCost",
+      "note": "ネットビリング。超過分は卸価格ベースのクレジット"
+    },
+    "KS": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "月内相殺ベースのネットメータリング"
+    },
+    "KY": {
+      "offsetRatePercent": 30,
+      "category": "avoidedCost",
+      "note": "2019年法で電力会社が輸出単価を設定可能。回避可能コスト寄り"
+    },
+    "LA": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "2019年以降、買取は回避可能コスト"
+    },
+    "MA": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（SMART等の追加制度は別）"
+    },
+    "MD": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "ME": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "ネット・エナジー・ビリング（kWhバンキング、小売単価相当）"
+    },
+    "MI": {
+      "offsetRatePercent": 60,
+      "category": "between",
+      "note": "分散電源プログラム（流入/流出分離）。流出分は小売未満"
+    },
+    "MN": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "平均小売単価でのクレジット"
+    },
+    "MO": {
+      "offsetRatePercent": 90,
+      "category": "retail",
+      "note": "月内相殺は小売単価相当、月末超過分は回避可能コスト"
+    },
+    "MS": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体の義務付けなし。回避可能コスト水準"
+    },
+    "MT": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "NC": {
+      "offsetRatePercent": 90,
+      "category": "retail",
+      "note": "Duke等のネットメータリング・ブリッジ（条件付きで小売に近い水準）"
+    },
+    "ND": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（100kW以下）"
+    },
+    "NE": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（25kW以下）"
+    },
+    "NH": {
+      "offsetRatePercent": 90,
+      "category": "retail",
+      "note": "クレジットは小売単価に近い水準（配電分の一部調整あり）"
+    },
+    "NJ": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "NM": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "NV": {
+      "offsetRatePercent": 75,
+      "category": "between",
+      "note": "超過クレジットは小売単価の一定割合（導入容量枠で逓減、現行枠は75%）"
+    },
+    "NY": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小規模需要家は小売単価のネットメータリング（大規模はVDER）"
+    },
+    "OH": {
+      "offsetRatePercent": 70,
+      "category": "between",
+      "note": "超過分は発電（エネルギー）分の単価でクレジット"
+    },
+    "OK": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体の義務付けなし。回避可能コスト水準の買取が多い"
+    },
+    "OR": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（Idaho Power管内は同社制度）"
+    },
+    "PA": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価（Price to Compare）でのネットメータリング"
+    },
+    "RI": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "SC": {
+      "offsetRatePercent": 45,
+      "category": "between",
+      "note": "ネットビリング。電力会社ごとに輸出単価が異なる"
+    },
+    "SD": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体の義務付けなし"
+    },
+    "TN": {
+      "offsetRatePercent": 25,
+      "category": "avoidedCost",
+      "note": "州全体のネットメータリング制度なし"
+    },
+    "TX": {
+      "offsetRatePercent": 50,
+      "category": "between",
+      "note": "州全体の義務付けなし。小売事業者の買取プランは卸価格水準〜小売相殺まで幅がある"
+    },
+    "UT": {
+      "offsetRatePercent": 50,
+      "category": "between",
+      "note": "輸出クレジット単価制（Rocky Mountain Power等で小売の半分程度）"
+    },
+    "VA": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "VT": {
+      "offsetRatePercent": 90,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（全発電量への調整係数あり）"
+    },
+    "WA": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "WI": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（小規模。会社により細部が異なる）"
+    },
+    "WV": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング"
+    },
+    "WY": {
+      "offsetRatePercent": 100,
+      "category": "retail",
+      "note": "小売単価のネットメータリング（小規模システム）"
+    }
+  }
+}
