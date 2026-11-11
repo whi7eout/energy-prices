@@ -1,294 +1,294 @@
 {
-  "surveyDate": "2026-11-02",
+  "surveyDate": "2026-11-09",
   "source": "資源エネルギー庁 石油製品価格調査",
   "prices": {
     "北海道": {
       "regular": 171.3,
       "highOctane": 182.7,
-      "diesel": 161.9,
-      "kerosene": 156.78
+      "diesel": 161.8,
+      "kerosene": 156.89
     },
     "青森県": {
-      "regular": 167.3,
-      "highOctane": 178.2,
-      "diesel": 158.2,
-      "kerosene": 147.94
+      "regular": 166.9,
+      "highOctane": 177.9,
+      "diesel": 157.7,
+      "kerosene": 147.33
     },
     "岩手県": {
-      "regular": 165.0,
-      "highOctane": 175.9,
-      "diesel": 155.0,
-      "kerosene": 144.11
+      "regular": 164.4,
+      "highOctane": 175.2,
+      "diesel": 154.0,
+      "kerosene": 143.5
     },
     "宮城県": {
-      "regular": 163.0,
-      "highOctane": 174.0,
-      "diesel": 153.8,
-      "kerosene": 140.78
+      "regular": 163.1,
+      "highOctane": 174.1,
+      "diesel": 154.3,
+      "kerosene": 142.22
     },
     "秋田県": {
-      "regular": 168.9,
-      "highOctane": 179.8,
-      "diesel": 160.6,
-      "kerosene": 144.78
+      "regular": 169.1,
+      "highOctane": 180.1,
+      "diesel": 160.8,
+      "kerosene": 144.94
     },
     "山形県": {
       "regular": 177.3,
       "highOctane": 188.2,
-      "diesel": 167.9,
-      "kerosene": 143.0
+      "diesel": 168.0,
+      "kerosene": 143.5
     },
     "福島県": {
-      "regular": 170.5,
-      "highOctane": 181.6,
-      "diesel": 158.7,
-      "kerosene": 145.89
+      "regular": 170.4,
+      "highOctane": 181.7,
+      "diesel": 159.0,
+      "kerosene": 146.11
     },
     "茨城県": {
-      "regular": 165.9,
-      "highOctane": 177.0,
-      "diesel": 155.5,
-      "kerosene": 141.39
+      "regular": 166.0,
+      "highOctane": 177.1,
+      "diesel": 155.6,
+      "kerosene": 141.56
     },
     "栃木県": {
       "regular": 169.5,
       "highOctane": 180.6,
-      "diesel": 160.5,
-      "kerosene": 145.33
+      "diesel": 160.6,
+      "kerosene": 145.61
     },
     "群馬県": {
-      "regular": 169.8,
-      "highOctane": 181.1,
-      "diesel": 160.4,
-      "kerosene": 142.22
+      "regular": 170.3,
+      "highOctane": 181.6,
+      "diesel": 160.1,
+      "kerosene": 142.17
     },
     "埼玉県": {
-      "regular": 164.8,
-      "highOctane": 175.7,
+      "regular": 165.0,
+      "highOctane": 175.8,
       "diesel": 154.0,
-      "kerosene": 139.61
+      "kerosene": 140.28
     },
     "千葉県": {
-      "regular": 167.3,
-      "highOctane": 177.9,
-      "diesel": 155.9,
-      "kerosene": 141.89
+      "regular": 167.5,
+      "highOctane": 178.1,
+      "diesel": 156.0,
+      "kerosene": 142.94
     },
     "東京都": {
-      "regular": 169.0,
-      "highOctane": 179.4,
-      "diesel": 156.7,
-      "kerosene": 144.78
+      "regular": 169.2,
+      "highOctane": 179.5,
+      "diesel": 156.9,
+      "kerosene": 145.83
     },
     "神奈川県": {
-      "regular": 168.1,
-      "highOctane": 179.1,
-      "diesel": 155.9,
-      "kerosene": 142.89
+      "regular": 167.9,
+      "highOctane": 178.9,
+      "diesel": 155.8,
+      "kerosene": 143.06
     },
     "新潟県": {
-      "regular": 171.0,
-      "highOctane": 182.2,
-      "diesel": 163.2,
-      "kerosene": 148.0
+      "regular": 171.4,
+      "highOctane": 182.6,
+      "diesel": 163.3,
+      "kerosene": 147.67
     },
     "富山県": {
-      "regular": 171.2,
+      "regular": 171.5,
       "highOctane": 182.8,
-      "diesel": 162.9,
-      "kerosene": 143.11
+      "diesel": 163.0,
+      "kerosene": 143.28
     },
     "石川県": {
-      "regular": 168.8,
+      "regular": 168.7,
       "highOctane": 179.2,
-      "diesel": 157.4,
-      "kerosene": 138.94
+      "diesel": 157.5,
+      "kerosene": 139.33
     },
     "福井県": {
-      "regular": 173.9,
-      "highOctane": 185.4,
-      "diesel": 164.2,
-      "kerosene": 145.72
+      "regular": 173.8,
+      "highOctane": 185.3,
+      "diesel": 164.1,
+      "kerosene": 145.83
     },
     "山梨県": {
-      "regular": 168.2,
-      "highOctane": 179.3,
+      "regular": 167.8,
+      "highOctane": 178.9,
       "diesel": 155.6,
-      "kerosene": 138.78
+      "kerosene": 138.39
     },
     "長野県": {
       "regular": 176.4,
       "highOctane": 187.5,
       "diesel": 165.8,
-      "kerosene": 142.39
+      "kerosene": 142.94
     },
     "岐阜県": {
-      "regular": 170.3,
-      "highOctane": 181.4,
-      "diesel": 158.4,
-      "kerosene": 140.28
+      "regular": 169.6,
+      "highOctane": 180.7,
+      "diesel": 157.9,
+      "kerosene": 140.22
     },
     "静岡県": {
       "regular": 171.4,
-      "highOctane": 182.4,
+      "highOctane": 182.5,
       "diesel": 159.3,
-      "kerosene": 147.17
+      "kerosene": 147.11
     },
     "愛知県": {
-      "regular": 163.9,
-      "highOctane": 175.4,
-      "diesel": 154.1,
-      "kerosene": 141.22
+      "regular": 164.0,
+      "highOctane": 175.5,
+      "diesel": 154.2,
+      "kerosene": 142.06
     },
     "三重県": {
-      "regular": 168.6,
-      "highOctane": 179.8,
-      "diesel": 160.2,
-      "kerosene": 141.56
+      "regular": 168.1,
+      "highOctane": 179.3,
+      "diesel": 159.4,
+      "kerosene": 140.61
     },
     "滋賀県": {
-      "regular": 170.3,
-      "highOctane": 181.3,
-      "diesel": 159.2,
+      "regular": 170.0,
+      "highOctane": 181.1,
+      "diesel": 158.9,
       "kerosene": 140.72
     },
     "京都府": {
-      "regular": 173.1,
-      "highOctane": 184.3,
-      "diesel": 159.9,
-      "kerosene": 144.0
+      "regular": 172.4,
+      "highOctane": 183.8,
+      "diesel": 159.3,
+      "kerosene": 144.67
     },
     "大阪府": {
-      "regular": 170.4,
-      "highOctane": 181.6,
-      "diesel": 158.4,
+      "regular": 170.6,
+      "highOctane": 181.7,
+      "diesel": 158.6,
       "kerosene": 141.61
     },
     "兵庫県": {
-      "regular": 166.3,
-      "highOctane": 177.5,
-      "diesel": 156.8,
-      "kerosene": 141.72
+      "regular": 166.2,
+      "highOctane": 177.4,
+      "diesel": 156.6,
+      "kerosene": 141.33
     },
     "奈良県": {
-      "regular": 167.3,
-      "highOctane": 178.0,
-      "diesel": 156.8,
-      "kerosene": 142.72
+      "regular": 167.5,
+      "highOctane": 178.2,
+      "diesel": 157.0,
+      "kerosene": 143.06
     },
     "和歌山県": {
-      "regular": 167.4,
-      "highOctane": 179.1,
+      "regular": 167.5,
+      "highOctane": 179.2,
       "diesel": 156.7,
-      "kerosene": 141.67
+      "kerosene": 142.0
     },
     "鳥取県": {
-      "regular": 175.9,
-      "highOctane": 186.8,
+      "regular": 175.8,
+      "highOctane": 186.7,
       "diesel": 166.4,
-      "kerosene": 146.22
+      "kerosene": 146.28
     },
     "島根県": {
-      "regular": 175.3,
-      "highOctane": 186.7,
-      "diesel": 168.1,
-      "kerosene": 147.39
+      "regular": 175.1,
+      "highOctane": 186.6,
+      "diesel": 167.8,
+      "kerosene": 147.06
     },
     "岡山県": {
       "regular": 168.8,
-      "highOctane": 179.7,
+      "highOctane": 179.8,
       "diesel": 158.7,
-      "kerosene": 142.83
+      "kerosene": 142.39
     },
     "広島県": {
-      "regular": 168.7,
-      "highOctane": 179.6,
-      "diesel": 159.4,
-      "kerosene": 141.78
+      "regular": 168.6,
+      "highOctane": 179.5,
+      "diesel": 159.2,
+      "kerosene": 141.72
     },
     "山口県": {
-      "regular": 168.2,
+      "regular": 168.3,
       "highOctane": 178.6,
-      "diesel": 159.3,
-      "kerosene": 140.94
+      "diesel": 159.4,
+      "kerosene": 141.28
     },
     "徳島県": {
-      "regular": 166.8,
+      "regular": 166.9,
       "highOctane": 177.6,
-      "diesel": 152.8,
-      "kerosene": 137.61
+      "diesel": 152.6,
+      "kerosene": 137.5
     },
     "香川県": {
-      "regular": 170.4,
-      "highOctane": 181.6,
-      "diesel": 158.3,
-      "kerosene": 140.67
+      "regular": 170.9,
+      "highOctane": 182.0,
+      "diesel": 158.8,
+      "kerosene": 141.56
     },
     "愛媛県": {
-      "regular": 170.1,
-      "highOctane": 180.9,
+      "regular": 169.9,
+      "highOctane": 180.8,
       "diesel": 159.0,
-      "kerosene": 144.28
+      "kerosene": 144.56
     },
     "高知県": {
       "regular": 174.3,
-      "highOctane": 184.6,
-      "diesel": 161.4,
-      "kerosene": 142.5
+      "highOctane": 184.5,
+      "diesel": 161.3,
+      "kerosene": 142.33
     },
     "福岡県": {
-      "regular": 168.4,
-      "highOctane": 179.6,
-      "diesel": 158.0,
-      "kerosene": 138.06
+      "regular": 169.9,
+      "highOctane": 180.5,
+      "diesel": 159.3,
+      "kerosene": 139.06
     },
     "佐賀県": {
-      "regular": 168.4,
-      "highOctane": 179.3,
-      "diesel": 157.2,
-      "kerosene": 143.22
+      "regular": 168.2,
+      "highOctane": 179.1,
+      "diesel": 157.4,
+      "kerosene": 143.44
     },
     "長崎県": {
-      "regular": 177.7,
-      "highOctane": 187.8,
-      "diesel": 169.9,
-      "kerosene": 146.28
+      "regular": 177.6,
+      "highOctane": 188.4,
+      "diesel": 169.5,
+      "kerosene": 147.06
     },
     "熊本県": {
-      "regular": 169.3,
-      "highOctane": 179.8,
-      "diesel": 158.8,
-      "kerosene": 143.17
+      "regular": 169.1,
+      "highOctane": 179.6,
+      "diesel": 158.2,
+      "kerosene": 142.67
     },
     "大分県": {
-      "regular": 171.2,
-      "highOctane": 182.7,
-      "diesel": 160.1,
-      "kerosene": 142.78
+      "regular": 172.5,
+      "highOctane": 183.9,
+      "diesel": 162.1,
+      "kerosene": 143.61
     },
     "宮崎県": {
-      "regular": 173.7,
-      "highOctane": 184.5,
-      "diesel": 161.8,
-      "kerosene": 146.72
+      "regular": 174.1,
+      "highOctane": 184.9,
+      "diesel": 162.3,
+      "kerosene": 147.06
     },
     "鹿児島県": {
-      "regular": 177.6,
-      "highOctane": 187.7,
-      "diesel": 168.1,
-      "kerosene": 150.89
+      "regular": 177.1,
+      "highOctane": 187.0,
+      "diesel": 168.0,
+      "kerosene": 150.39
     },
     "沖縄県": {
-      "regular": 178.6,
-      "highOctane": 183.7,
-      "diesel": 166.6,
-      "kerosene": 163.89
+      "regular": 175.7,
+      "highOctane": 182.9,
+      "diesel": 164.7,
+      "kerosene": 162.0
     }
   },
   "national": {
-    "regular": 170.0,
-    "highOctane": 180.9,
-    "diesel": 159.5,
-    "kerosene": 143.67
+    "regular": 169.9,
+    "highOctane": 180.8,
+    "diesel": 159.4,
+    "kerosene": 143.83
   }
 }
