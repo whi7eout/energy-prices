@@ -4,12 +4,14 @@
   "currency": "USD",
   "taxIncluded": false,
   "notes": "外出先充電サービスの標準料金マスター（米国）。Electrify America の価格は公式にステーションごとに異なり、実際の価格は公式アプリまたは充電器の画面で表示される（時間帯別料金のステーションもある）。ここに収録する単価は、同社の広く公表されてきた基準レートを参考値として収録したもので、Pass+ の単価は公式ページの「約25%引き」から算出した。州法により分課金になるステーションもある。",
+  "notesEn": "Standard rate master for away-from-home charging services (U.S.). Electrify America pricing varies by station and is shown in the official app or on the charger before charging (some stations have time-of-use pricing). The rates listed here are the company's widely published base rates, recorded as reference values; Pass+ rates are calculated from the official 'about 25% off' figure. Some stations bill per minute due to state law.",
   "services": [
     {
       "id": "electrify-america",
       "name": "Electrify America",
       "operator": "Electrify America LLC",
       "note": "米国最大級のDC急速充電ネットワーク。価格はステーションごとに異なり、公式アプリ/充電器で事前表示される。Pass+ は充電単価が約25%引き（公式ページ）。",
+      "noteEn": "One of the largest DC fast-charging networks in the U.S. Pricing varies by station and is shown in advance in the official app / on the charger. Pass+ takes about 25% off the charging price (official page).",
       "sourceUrl": "https://www.electrifyamerica.com/pricing/",
       "tariffs": [
         {
@@ -18,6 +20,7 @@
           "planName": "Guest (Pass)",
           "monthlyFee": 0,
           "note": "ゲスト（会員登録なし）の都度払い。単価はステーションごとに異なるため、基準レートの参考値を収録。",
+          "noteEn": "Pay-as-you-go guest pricing (no membership). Rates vary by station, so the base rate is recorded as a reference value.",
           "sourceUrl": "https://www.electrifyamerica.com/pricing/",
           "rates": [
             {
@@ -26,7 +29,8 @@
               "unit": "perKwh",
               "price": 0.48,
               "label": "DC fast (per kWh, reference)",
-              "note": "参考値：実際の価格はステーションごとに異なる"
+              "note": "参考値：実際の価格はステーションごとに異なる",
+              "noteEn": "Reference value: actual prices vary by station"
             }
           ]
         },
@@ -36,6 +40,7 @@
           "planName": "Pass+",
           "monthlyFee": 7.0,
           "note": "月額制の会員プラン。充電単価が約25%引き（公式ページ）。月額料金は単価に含めない参考情報。",
+          "noteEn": "Monthly membership plan. Charging rates are about 25% off (official page). The monthly fee is reference information only and is not included in the per-kWh price.",
           "sourceUrl": "https://www.electrifyamerica.com/pricing/",
           "rates": [
             {
@@ -44,7 +49,8 @@
               "unit": "perKwh",
               "price": 0.36,
               "label": "DC fast (per kWh, reference)",
-              "note": "参考値：ゲスト基準レート×0.75（約25%引き）で算出"
+              "note": "参考値：ゲスト基準レート×0.75（約25%引き）で算出",
+              "noteEn": "Reference value: calculated as guest base rate x 0.75 (about 25% off)"
             }
           ]
         }
