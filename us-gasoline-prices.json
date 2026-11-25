@@ -1,90 +1,90 @@
 {
-  "surveyDate": "2026-11-16",
+  "surveyDate": "2026-11-23",
   "source": "U.S. Energy Information Administration (EIA), Weekly Retail Gasoline and Diesel Prices",
   "sourceUrl": "https://www.eia.gov/petroleum/gasdiesel/",
   "unit": "USD per gallon",
-  "fetchedAt": "2026-11-18T16:20:47+00:00",
+  "fetchedAt": "2026-11-25T17:54:10+00:00",
   "prices": {
     "US": {
-      "regular": 3.805,
-      "premium": 4.834,
+      "regular": 3.642,
+      "premium": 4.694,
       "diesel": 6.252
     },
     "CA": {
-      "regular": 5.387,
-      "premium": 5.858,
+      "regular": 5.274,
+      "premium": 5.775,
       "diesel": 8.143
     },
     "CO": {
-      "regular": 3.513,
-      "premium": 4.243
+      "regular": 3.275,
+      "premium": 4.003
     },
     "FL": {
-      "regular": 3.525,
-      "premium": 4.357
+      "regular": 3.391,
+      "premium": 4.218
     },
     "MA": {
-      "regular": 3.872,
-      "premium": 4.911
+      "regular": 3.724,
+      "premium": 4.781
     },
     "MN": {
-      "regular": 3.608,
-      "premium": 4.551
+      "regular": 3.423,
+      "premium": 4.341
     },
     "NY": {
-      "regular": 4.063,
-      "premium": 4.97
+      "regular": 3.972,
+      "premium": 4.846
     },
     "OH": {
-      "regular": 3.396,
-      "premium": 4.578
+      "regular": 3.032,
+      "premium": 4.226
     },
     "TX": {
-      "regular": 3.216,
-      "premium": 4.088
+      "regular": 3.033,
+      "premium": 3.917
     },
     "WA": {
-      "regular": 4.714,
-      "premium": 5.252
+      "regular": 4.603,
+      "premium": 5.147
     },
     "PADD1": {
-      "regular": 3.707,
-      "premium": 4.635,
+      "regular": 3.582,
+      "premium": 4.511,
       "diesel": 5.981
     },
     "PADD1A": {
-      "regular": 3.908,
-      "premium": 4.933,
+      "regular": 3.778,
+      "premium": 4.813,
       "diesel": 6.452
     },
     "PADD1B": {
-      "regular": 4.064,
-      "premium": 4.935,
+      "regular": 3.95,
+      "premium": 4.825,
       "diesel": 6.49
     },
     "PADD1C": {
-      "regular": 3.436,
-      "premium": 4.337,
+      "regular": 3.305,
+      "premium": 4.202,
       "diesel": 5.744
     },
     "PADD2": {
-      "regular": 3.604,
-      "premium": 4.722,
+      "regular": 3.38,
+      "premium": 4.511,
       "diesel": 6.344
     },
     "PADD3": {
-      "regular": 3.293,
-      "premium": 4.181,
+      "regular": 3.125,
+      "premium": 4.014,
       "diesel": 5.871
     },
     "PADD4": {
-      "regular": 3.696,
-      "premium": 4.332,
+      "regular": 3.502,
+      "premium": 4.154,
       "diesel": 6.378
     },
     "PADD5": {
-      "regular": 4.933,
-      "premium": 5.593,
+      "regular": 4.805,
+      "premium": 5.501,
       "diesel": 7.298
     },
     "PADD5XCA": {
@@ -92,8 +92,8 @@
     }
   },
   "national": {
-    "regular": 3.805,
-    "premium": 4.834,
+    "regular": 3.642,
+    "premium": 4.694,
     "diesel": 6.252
   }
 }
